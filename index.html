@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Dheeraj Reddy Anugu</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Dheeraj Reddy Anugu</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+<<<<<<< HEAD
+        <img src="/images/Pic.png" alt="Dheeraj Reddy profile picture" />
+=======
+        <img src="Images/Pic.jpg" alt="Pic 1" class="project-img"/>
+>>>>>>> a2c6beb9eaa3088755320e90692e37966542c3a0
+      </div>
+      <div class="section__text">
+        <h2><p class="section__text__p1">Hello, I'm</p></h2>
+        <h1 class="title">Dheeraj Reddy</h1>
+        <p class="section__text__p2">Computer Science Graduate</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/1VrnAdNJGS_E3RvER5z_t4v1yrqa0MKNc/view?usp=drive_link')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="Images/linkedin.png alt="Link 1" class="project-img"/>
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/dheeraj-reddy-anugu'"
+          />
+          <img
+            src="Images/github.png alt="Link 2" class="project-img"/>
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Iam-ADR'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="/Images/My Pic2.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="Images/experience.png alt="icon" class="project-img"/>
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Data Analyst</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="Images/education.png alt="icon 2" class="project-img"/>
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech in Computer Science(3.58/4)<br />M.S in Computer Science(3.81/4)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                I am a Data Analyst with over 2 years of experience in data analysis, holding a Master’s degree in Computer Science from the <b>University of Maryland, Baltimore County</b>. My professional journey includes hands-on roles as a <b>Graduate Assistant</b> and <b>Programmer Analyst</b>, where I honed my skills in programming, web development, and data visualization.Proficient in a variety of programming languages and data analysis tools, I excel at enhancing system performance and developing innovative software solutions. My expertise extends to creating impactful data visualizations that drive strategic decisions.Certified in <b>Google Professional Data Analytics</b>, I have a strong foundation in leveraging machine learning for cutting-edge projects. My portfolio showcases a blend of technical proficiency and creative problem-solving, demonstrating my ability to transform data into actionable insights
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="Images/arrow.png alt="icon 3" class="project-img"/>
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="Images/checkmark.png alt="icon 3" class="project-img"/>
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Images/checkmark.png alt="icon 3" class="project-img"/>
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Images/checkmark.png alt="icon 3" class="project-img"/>
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Images/checkmark.png alt="icon 3" class="project-img"/>
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C & C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Images/checkmark.png alt="icon 3" class="project-img"/>
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Images/checkmark.png alt="icon 3" class="project-img"/>
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Hive & Scala</h3>
+                  <p>Basics</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Database and Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="Images/checkmark.png alt="icon 3" class="project-img"/>
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Images/checkmark.png alt="icon 3" class="project-img"/>
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Excel</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Images/checkmark.png alt="icon 3" class="project-img"/>
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Mongo DB</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Images/checkmark.png alt="icon 3" class="project-img"/>
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git/Github</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Images/checkmark.png alt="icon 3" class="project-img"/>
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Images/checkmark.png alt="icon 3" class="project-img"/>
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Hadoop</h3>
+                  <p>Basics</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="Images/arrow.png alt="icon 4" class="project-img"/>
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Images/Project 1.png alt="icon 5" class="project-img"/>
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Tableau</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Iam-ADR/911-Calls-Baltimore-Dashboard-Tableau'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://public.tableau.com/views/Baltimore911CallsInformation-2021to2023/Dashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Images/Project 2.webp alt="icon 6" class="project-img"/>
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Power BI</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Iam-ADR/T20-Cricket-Player-Analysis-Power-BI'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Iam-ADR/T20-Cricket-Player-Analysis-Power-BI'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Images/Project 3.png alt="icon 7" class="project-img"/>
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Excel</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Iam-ADR/Online-Clothing-Store-Annual-Sales-Report-main'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Iam-ADR/Online-Clothing-Store-Annual-Sales-Report-main'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Images/Project 4.jpg alt="icon 8" class="project-img"/>
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">SQL</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Iam-ADR/SQL'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Iam-ADR/SQL'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="Images/arrow.png alt="icon 4" class="project-img"/>
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src=" Images/email.png alt="icon 9" class="project-img"/>
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:dheerajreddy1947@gmail.com">Dheerajreddy1947@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="Images/linkedin.png alt="icon 10" class="project-img"/>
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/dheeraj-reddy-anugu">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="Images/phone.png alt="icon 11" class="project-img"/>
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/dheeraj-reddy-anugu">+16673698328</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Dheeraj Reddy Anugu. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
